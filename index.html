@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Stat Calculator</title>
+    <script src="./script.js" type="application/javascript"></script>
+  </head>
+  <body>
+    <h2>Statistical Calculator</h2>
+    <form onsubmit="return performStatistics()">
+      <textarea required id="values" name="statvalues" cols="30" rows="10"></textarea>
+      <br />
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+      <br />
+      <label for="max">Max</label>
+      <input readonly type="text" name="max" id="max" />
+      <br />
+      <label for="mean">Mean</label>
+      <input readonly type="text" name="mean" id="mean" />
+      <br />
+      <label for="median">Median</label>
+      <input readonly type="text" name="median" id="median" />
+      <br />
+      <label for="min">Min</label>
+      <input readonly type="text" name="min" id="min" />
+      <br />
+      <label for="mode">Mode</label>
+      <input readonly type="text" name="mode" id="mode" />
+      <br />
+      <label for="stddev">Std Dev</label>
+      <input readonly type="text" name="stddev" id="stddev" />
+      <br />
+      <label for="sum">Sum</label>
+      <input readonly type="text" name="sum" id="sum" />
+      <br />
+      <label for="variance">Variance</label>
+      <input readonly type="text" name="variance" id="variance" />
+      <br />
+    </form>
+    <a href="">E portfolio</a>
+  </body>
+</html>
